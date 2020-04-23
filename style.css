@@ -1,34 +1,95 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Bebas";
   color: white;
-
 }
 
-.navText {
-  color: darkred;
+.nav-text {
+  display: flex;
 }
 
-.header {
-  background: #343a40;
-  padding: 30px;
+.nav-text,
+.prices,
+.burgerTitle,
+h2,
+h3,
+h4,
+h5 {
+  color: #7d2016;
+  font-family: "Bebas Neue";
 }
 
 .logo {
-  position: absolute;
-  max-width: 10%;
-  margin: 10px;
+  width: 150px;
+  height: 150px;
+  padding-bottom: 20px;
 }
 
-p, span {
+.header {
+  background: #2b2d2e;
+  position: relative;
+}
+
+.burgerImg {
+  padding-top: 0;
+  position: absolute;
+}
+
+.rest {
+  color: lightslategrey;
+  margin-bottom: 0;
+}
+
+.header {
+  font-size: 13px;
+}
+
+.fa-cutlery,
+.sign {
+  color: white;
+}
+
+.searchBtn {
+  background-color: #7d2016;
+  outline-offset: -6px;
+  outline: 1px solid whitesmoke;
+  width: 50px;
+  height: 30px;
+  padding: 0;
+  border: none;
+}
+
+.searchbar {
+  width: 200px;
+}
+
+.hero {
+  position: relative;
+  background: url("/assets/burgerlove-background.jpg") no-repeat;
+  background-size: cover;
+}
+
+.border {
+  background-color: #7d2016;
+  width: 80%;
+  left: 150px;
+  top: 150px;
+  height: 600px;
+  outline-offset: -15px;
+  outline: 1px solid whitesmoke;
+  text-align: center;
+  position: absolute;
+}
+
+h2 {
+  margin: 100px auto;
+  padding: 100px 50px;
+  text-align: center;
+  font-size: 3rem !important;
+}
+
+p,
+span {
   color: white;
   font-family: "Lato";
-}
-
-
-.test {
-  position: relative;
-  bottom: 0;
-  left: 0;
 }

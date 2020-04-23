@@ -7,50 +7,66 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;900&display=swap"
+      rel="stylesheet">
     <title>Burger Love</title>
   </head>
 
   <body>
-    <div class="container-fluid">
-      <img src="/assets//burgerlove-logo.png" alt="resturant logo" class="logo">
-      <navbar class="navbar justify-content-end">
-        <div class="row">
-          <div class="col-sm"></div>
-          <div class="col-sm"></div>
-            <li class="navText"> <b>OPEN</b> | UNTIL 6 PM TODAY</li>
+    <div class="d-flex justify-content-end col-sm-9">
+      <h4 class="mt-2">• OPEN </h4>
+      <h5 class="mt-2 align-self-center"> | UNTIL 6 PM TODAY</h5>
+    </div>
+
+    <header class="column justify-content-center header col-12">
+      <div class="container d-flex justify-content-between col-8 align-self-end">
+        <div class="section1 column col-sm-3 align-self-end burgerImg">
+          <img src="/assets/burgerlove-logo.png" alt="resturant logo" class="logo">
+          <div class="row ml-1 justify-content-between">
+            <p>Utkörning: <p>
+                <p><b>09:00-20:00</b></p>
+          </div>
+          <div class="row ml-1 justify-content-between">
+            <p>Avhämtning: </p>
+            <p><b>09:00-20:00</b></p>
+          </div>
         </div>
-      </navbar>
-      <div class="row header">
-        <div class="col-sm test">
-          <span>Utkörning: <b>09:00-20:00</b></span>
-          <!-- <span>Avhämtning: <b>09:00-20:00</b></span> -->
-        </div>
-        <div class="col-sm">
-          <div>
-            <p>
-              <i class="fa fa-cutlery" aria-hidden="true"></i>
-              <a href="#">restaurangOnline.se</a></p>
+
+        <div class="section2 row col-sm-2 align-self-end">
+          <i class="fa fa-cutlery fa-2x float-left mr-2" aria-hidden="true"></i>
+          <div class="column">
+            <p class="rest">restaurang</p>
+            <p class="">Online.se</p>
           </div>
           <p>
             Vi är online och tar emot beställningar!
           </p>
         </div>
-        <div class="">
-          <input type="text" name="" id="">
-          <button type="button" class="btn btn-primary" btn-lg btn-block></button>
-          <div>
+
+        <div class="section3 column col-sm-4 align-self-end">
+          <div class="col input-group mb-5">
+            <select class="searchbar">
+              <option value="0">0</option>
+            </select>
+            <button class="searchBtn ml-2"></button>
+          </div>
+          <div class="row ml-3">
             <p>
-              LOGGA IN
+              <a class="sign" href="#">LOGGA IN</a>
             </p>
-            <p> REGISTRERA</p>
+            <p class="ml-3"><a class="sign" href="#">REGISTRERA</a></p>
           </div>
         </div>
-      </div>
-      <div class="">
-        <img src="/assets/burgerlove-background.jpg" class="img-fluid" alt="burgerlove-background">
+      </header>
+
+      <div class="hero">
+        <div class="border">
+          <h2 class="heading"> BURGERS </h2>
+        </div>
       </div>
     </div>
+    </div>
+
   </body>
 
   <script src="main.js"></script>
