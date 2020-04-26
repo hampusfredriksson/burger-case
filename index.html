@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,42 +13,41 @@
   </head>
 
   <body>
-    <div class="d-flex justify-content-end col-sm-9">
+    <div class="d-flex justify-content-end col-sm-8">
       <h4 class="mt-2">• OPEN </h4>
       <h5 class="mt-2 align-self-center"> | UNTIL 6 PM TODAY</h5>
     </div>
 
-    <header class="column justify-content-center header col-12">
-      <div class="container d-flex justify-content-between col-8 align-self-end">
-        <div class="section1 column col-sm-3 align-self-end burgerImg">
+    <header class="container-fluid header">
+      <div class="row justify-content-md-center">
+        <div class="section1 col col-lg-2 burgerImg">
           <img src="/assets/burgerlove-logo.png" alt="resturant logo" class="logo">
-          <div class="row ml-1 justify-content-between">
-            <p>Utkörning: <p>
-                <p><b>09:00-20:00</b></p>
+          <div class="justify-content-between">
+            <p>Utkörning:
+              <b>09:00-20:00</b></p>
           </div>
-          <div class="row ml-1 justify-content-between">
-            <p>Avhämtning: </p>
-            <p><b>09:00-20:00</b></p>
+          <div class="justify-content-between">
+            <p>Avhämtning:
+              <b>09:00-20:00</b></p>
           </div>
         </div>
 
-        <div class="section2 row col-sm-2 align-self-end">
+        <div class="section2 col-md-auto align-self-end mr-5">
           <i class="fa fa-cutlery fa-2x float-left mr-2" aria-hidden="true"></i>
-          <div class="column">
-            <p class="rest">restaurang</p>
-            <p class="">Online.se</p>
-          </div>
-          <p>
-            Vi är online och tar emot beställningar!
+          <p class="rest">restaurang</p>
+          <p>Online.se</p>
+          <p class="m-0">
+            Vi är online och </p>
+          <p>tar emot beställningar!
           </p>
         </div>
 
-        <div class="section3 column col-sm-4 align-self-end">
-          <div class="col input-group mb-5">
+        <div class="section2 col-md-auto align-self-end mr-5">
+          <div class="input-group mb-5">
             <select class="searchbar">
               <option value="0">0</option>
             </select>
-            <button class="searchBtn ml-2"></button>
+            <button class=" searchBtn"></button>
           </div>
           <div class="row ml-3">
             <p>
@@ -57,18 +56,106 @@
             <p class="ml-3"><a class="sign" href="#">REGISTRERA</a></p>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
 
-      <div class="hero">
-        <div class="border">
-          <h2 class="heading"> BURGERS </h2>
+    <div class="justify-content-center col-12 hero">
+      <div class="container d-flex justify-content-center">
+        <div class="redBorder">
+          <h1 id="burgerButton" class="heading mt-5 mb-5 p-0">
+            BURGERS
+          </h1>
+          <div class="row justify-content-center" id="burgerMenu">
+            <div class="hr1 d-none d-lg-block">
+              <hr class="hr ">
+              <hr class="hr ">
+              <hr class="hr ">
+            </div>
+            <div class="hr2 d-none d-lg-block ">
+              <hr class="hr">
+              <hr class="hr ">
+              <hr class="hr ">
+            </div>
+            <div class="row">
+              <div class="dot d-none d-lg-block"></div>
+              <div class="items col-md-auto">
+                <p class="burgerTitle col py-3  text-lg-left">Halloumi</p>
+                <p class="burgerDesc col py-3 text-lg-left mb-0">
+                  Grillad halloumi, pestoma- jonnäs, romansallad,
+                  picklad rödlök, avokado </p>
+              </div>
+              <div class="price col mb-5">
+                <p>
+                  95:-
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="dot d-none d-lg-block"></div>
+              <div class="items col-md-auto">
+                <p class="burgerTitle col py-3 text-lg-left">Burger Love</p>
+                <p class="burgerDesc col py-3 text-lg-left">
+                  180 gr. burgare, chilimajonnäs, sallad, cheddarost,
+                  tomat, stekt lök, bacon</p>
+              </div>
+              <div class="price col">
+                <p>
+                  98:-
+                </p>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
     </div>
 
+    <div class="container">
+      <div class="row mt-2">
+        <div class="col col-lg-2">
+          <h5>VISIT US</h5>
+          <p class="footerText">Stortorget 6 702 11 Örebro</p>
+          <p class="footerText">
+            Burgerloveorebro@hotmail.com</p>
+          <p class="footerText">019 760 16 60</p>
+        </div>
+        <div class="col-md-auto">
+          <h5>HOURS</h5>
+          <div class="row justify-content-between">
+            <p class="footerText ">Måndag–Torsdag: </p>
+            <p class="footerText font-weight-bold ml-4">09:00–21:00</p>
+          </div>
+          <div class="row justify-content-between">
+            <p class="footerText">Fredag–Lördag: </p>
+            <p class="footerText font-weight-bold">09:00–22.00 </p>
+          </div>
+          <div class="row justify-content-between">
+            <p class="footerText">Söndag:</p>
+            <p class="footerText font-weight-bold">12:00–18:00</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="justify-content-end text-right mt-2">
+            <button class="footerBtn">
+              <i class="fa fa-facebook-f fa-lg footerIcon"></i></button>
+            <button class="footerBtn"><i class="fa fa-instagram fa-lg"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
   </body>
-
-  <script src="main.js"></script>
 
 </html>
